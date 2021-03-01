@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.Chess.ChessInterface">
+  <grid id="27dc6" binding="MainPage" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="-28" width="773" height="656"/>
+    </constraints>
+    <properties>
+      <background color="-14031887"/>
+      <foreground color="-12720152"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <splitpane id="d03b1" binding="SplitPane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <orientation value="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4aeeb" binding="MainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <background color="-12965368"/>
+              <foreground color="-1261273"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="b45dd" binding="ChessTable" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="400" height="400"/>
+                    <preferred-size width="400" height="400"/>
+                    <maximum-size width="400" height="400"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <foreground color="-16054272"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="11517" binding="zeroseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <enabled value="true"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <clientProperties>
+                      <html.disable class="java.lang.Boolean" value="false"/>
+                    </clientProperties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="fb945" binding="sevenseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="92730" binding="twozero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="5acf0" binding="twoseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="73079" binding="sevenzero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="d66e6" binding="zerozero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="59450" binding="twoone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="d4323" binding="sevenone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="b29b4" binding="zeroone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="c7619" binding="twotwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="3dc72" binding="seventwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="9d11a" binding="zerotwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="6ddca" binding="fivetwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="99d68" binding="fiveseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <foreground color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="73918" binding="fiveone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="3f0e" binding="fivezero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="e27e2" binding="onetwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="635" binding="oneseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <foreground color="-16777216"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="96ac2" binding="oneone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="eb926" binding="onezero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="8f2cc" binding="onethree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="19b2e" binding="zerothree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="bcd9e" binding="twothree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="8289f" binding="fivethree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="6511e" binding="seventhree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="7d2ac" binding="threeseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <foreground color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="4f6ca" binding="threethree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="95a65" binding="threetwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="e75e8" binding="threeone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <enabled value="false"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <clientProperties>
+                      <html.disable class="java.lang.Boolean" value="false"/>
+                    </clientProperties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="4e513" binding="threezero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="2fb4b" binding="fivefour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="8a949" binding="sevenfour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="8a133" binding="threefour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="98767" binding="twofour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="185d4" binding="onefour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="9a5f6" binding="zerofour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="d5752" binding="fourseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="22620" binding="fourfour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="66478" binding="fourthree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="75ab0" binding="fourtwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="4fe47" binding="fourone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="60068" binding="fourzero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="73b76" binding="zerofive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="16d1b" binding="onefive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="f4039" binding="twofive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="267eb" binding="threefive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="78e33" binding="fourfive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="28416" binding="fivefive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="5635" binding="sevenfive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="4cd45" binding="sixseven" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="7537d" binding="sixfive" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="fbc9" binding="sixfour" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="6a249" binding="sixthree" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="7253e" binding="sixtwo" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="fce4d" binding="sixone" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="61614" binding="sixzero" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="4c426" binding="sixsix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="b96f0" binding="sevensix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="e6810" binding="fivesix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="37975" binding="foursix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="a975e" binding="threesix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="646f3" binding="twosix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="bcda2" binding="onesix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-3377391"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <grid id="af485" binding="zerosix" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <minimum-size width="50" height="50"/>
+                        <preferred-size width="50" height="50"/>
+                        <maximum-size width="50" height="50"/>
+                      </grid>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16054272"/>
+                      <maximumSize width="2" height="2"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-16054272"/>
+                    </border>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="cde2b" binding="TextPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </splitpane>
+      <splitpane id="93a42" binding="ButtonPane">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3934f" class="javax.swing.JButton" binding="NewGame">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <text value="New Game"/>
+            </properties>
+          </component>
+          <component id="3673e" class="javax.swing.JButton" binding="TextButton">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
