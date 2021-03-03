@@ -1,0 +1,11 @@
+Am realizat intreg jocul de sah.
+Imi pare rau ca am vazut testele prea tarziu, chiar astazi.
+Nu am gasit nici structura la inceput... si am terminat jocul astfel.
+
+Am folosit Blacks si Whites pentru o oraganizare mai buna a datelor si daca voi mai lucra la joc sa pot sa afisez piesele luate undeva grafic in jframe.
+
+Am realizat analiza, astfel incat daca un rege se afla in sah el primeste un contur rosu si daca nu este sah-mat se pot muta doar piesele care scot regele din sah si doar pe acele pozitii.
+
+De asemenea, am implementat un sistem prin care sa se poata vedea ce solutii are o piesa ( ce mutari poate face , cu verde ) si pe cine poate captura ( cu rosu ).
+
+Daca se selecteazaz New Game, un joc nou va incepe.
